@@ -1,0 +1,92 @@
+
+ul{margin:0px;
+   padding:0px;
+   list-style:none;
+}
+ol{margin:0px;
+   padding:0px;
+   list-style:none;
+}
+
+
+ul li{
+float:left;
+height:40px;
+width:150px;
+background-color:grey;
+opacity: .8;
+line-height:20px;
+text-align:center;
+font-size:20px;
+}
+
+ol li{
+float:left;
+height:40px;
+width:150px;
+background-color:;
+opacity: .8;
+line-height:20px;
+text-align:center;
+font-size:20px;
+}
+
+ul li a{
+text-decoration:none;
+color:black;
+display:block;
+margin-right:2px;
+}
+ol li a{
+text-decoration:none;
+color:green;
+display:block;
+margin-right:2px;
+}
+ul li a:hover{
+background-color:grey;
+}
+ol li a:hover{
+background-color:;
+}
+ul li ul li{
+display:none;
+}
+ol li ol li{
+display:none;
+}
+
+ul li:hover ul li{
+display:block;
+}
+ol li:hover ol li{
+display:block;
+}
+
+
+
+
+	ul.drop-menu{display-none;
+	li:hover>block;
+}
+	ol.drop-menu{display-none;
+	li:hover>block;
+}
+
+
+	textarea{
+	color: red;
+	}
+	form li{
+		list-style: none;
+		margin-bottom: 20px;
+
+	}
+	form ul{
+		padding-left: 0;
+
+
+	}
+	label{
+		display: block;
+	}
